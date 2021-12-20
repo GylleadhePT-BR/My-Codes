@@ -21,7 +21,8 @@
 }
 
 body{
-    background:linear-gradient(to top , var(--cor1),var(--cor4));
+    background:url(https://www.showmetech.com.br/wp-content/uploads//2019/09/android-showmetech2.jpg);
+    background-attachment: fixed;
     font-family: var(--fonte-padrao);
 }
 a::after{
@@ -32,7 +33,9 @@ header{
     min-height: 150px;
     text-align: center;
     padding-top:30px ;
-    background:linear-gradient(to bottom, var(--cor3),var(--cor5));
+    background:url(https://tm.ibxk.com.br/2017/08/29/29113431754537.jpg?ims=1120x420);
+    background-attachment: fixed;
+    background-repeat:round;
 }
 header > h1{
     color: white;
@@ -56,6 +59,7 @@ nav{
     box-shadow: 0px 7px 7px black;
     margin-bottom: 30px;
     text-align: center;
+    
 }
 nav > a{
     color: white;
@@ -63,14 +67,14 @@ nav > a{
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-    transition: all 1s ease;
+    transition: all ease  0.4s;
     text-align: center;
 }
 nav > a:hover{
     border-radius: 10px 0px 10px 0px;
     background:linear-gradient(to right , var(--cor2),var(--cor4));
     color: var(--cor0);
-    transition: all 1s ease;
+    transition: all ease 0.5s;
 }
 main{
     background-color: white;
