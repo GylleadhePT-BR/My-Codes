@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    border: 0;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background:linear-gradient(to right,#3557FC,#2F7DE0,#40C0F7,#2FDAE0,#35FCCB); 
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display:flex;  
+    align-items: center;
+    justify-content: center;
+}
+main.container{
+    background:linear-gradient(to right,#101927,#324257);
+    width:390px;
+    max-width:400px;
+    min-height: 70vh;
+    padding:2rem;
+    box-shadow: 5px 5px 15px rgb(35, 192, 137);
+    border-radius:20px;
+}
+main h2{
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position:relative;
+    color: aliceblue;
+}
+
+main h2::before{
+    content:'';
+    position: absolute;
+    height: 6px;
+    width: 100px;
+    bottom: -7px;
+    left:0;
+    border-radius:8px;
+    background:linear-gradient(to right,#3557FC,#2F7DE0,#40C0F7,#2FDAE0,#35FCCB); 
+}
+form{
+    display:flex;
+    flex-direction:column;
+
+    border-bottom: #2FDAE0;
+}
+.imput-field{
+    position: relative;
+    border-bottom: #2FDAE0;
+    color: white;
+}
+form .input-field:first-child{
+    margin-bottom:1.5rem;
+}
+.input-field input{
+    outline:none ;
+    font-size: 0.9rem;
+    color:rgb(255, 255, 255);
+    background:linear-gradient(to right,#101927,#324257);
+}
+.input-field input::placeholder{
+    color:rgb(255, 255, 255);
+    font-size:17px;
+}
+
+form input[type="submit"]{
+    margin-top:2rem;
+    padding:0.4rem;
+    background:linear-gradient(to right,#3557FC,#2F7DE0,#40C0F7,#2FDAE0,#35FCCB); 
+    cursor:pointer;
+    color:white;
+    font-size:0.9rem;
+    font-weight: 300;
+    border-radius:30px;
+    transition: all 0.3s ease;
+}
+form input[type="submit"]:hover{
+    letter-spacing: 0.5rem;
+    background:linear-gradient(to right,#3557FC,#0aa5b9,#40C0F7,#0c45e2,#3542fc); 
+
+}
+.footer{
+    display:flex;
+    flex-direction:column;
+    margin-top:1rem;
+}
+.footer span{
+    color:rgb(255, 255, 255);
+    font-size:1rem;
+    text-align: center;
+}
+
+.footer .social-field{
+    padding:0.4rem;
+    border-radius:30px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor:pointer;
+    margin-top:1rem;
+}
+.footer .social-field a i{
+    margin:0 0.5rem;
+    width: 15px;
+}
+
+.footer .social-field a{
+    text-decoration:none;
+    color:white;
+}
+
+.footer .social-field.twitter{
+    background:linear-gradient(to right,rgb(26, 77, 186),rgb(67, 145, 248))
+}
+.footer .social-field.twitter:hover{
+    background:linear-gradient(45deg,rgb(8, 130, 211),rgb(9, 83, 220))
+}
+.footer .social-field.facebook{
+    background:linear-gradient(to right,rgb(6, 18, 84),rgb(15, 97, 250))
+}
+.footer .social-field.facebook:hover{
+    background:linear-gradient(45deg,rgb(1, 25, 118),rgb(24, 0, 243))
+}
+.footer .social-field.google{
+    background:linear-gradient(to right,red,rgb(165, 65, 65))
+}
+.footer .social-field.google:hover{
+    background:linear-gradient(45deg,rgb(172, 3, 3),red)
+}
+
