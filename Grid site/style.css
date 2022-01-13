@@ -1,0 +1,188 @@
+*{
+    padding:0;
+    margin: 0;
+    border: border-box;
+}
+body{
+    background:#EAEAEA;
+}
+div.header{
+    position: relative;
+    font-family: Arial;
+    background-image: url(imagens/pexels-photo-248515.png);
+    width: 100%;
+    min-height: 480px;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.header h1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top:90px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    transition:all 0.5s
+}
+.header h1:hover{
+    cursor:pointer;
+    text-shadow: 11px 3px 11px rgba(150, 150, 150, 1);
+    transition: all 0.5s;
+
+}
+.header p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2em;
+}
+.btn{
+    position: absolute;
+    right: 38%;
+    bottom: 10%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background: rgba(46, 45, 45, 0.938);
+    border: 1px solid grey;
+    padding: 27px;
+    max-width: 700px;
+    transition:all ease 0.6s;
+
+    transform:translate(-44%,30%)
+    
+}
+.btn:hover{
+    background:rgb(255, 255, 255);
+    transition:all ease 0.6s;
+    color: rgba(46, 45, 45, 0.938);
+    border-radius: 10px;
+}
+div.content1{
+    font-family: Arial;
+    width:100%;
+    min-height: 250px;
+    text-align: center;
+    background: #EAEAEA;
+    color: #333333;
+}
+div.content1 h2{
+    padding:27px;
+    font-weight: bold;
+}
+div.content1 p{
+    padding: 30px;
+    line-height: 2em;
+}
+div.cards{
+    margin: auto;
+    max-width: 90%;
+    display: flex;
+    min-height: 480px;
+    padding: 2em 1em 1em;
+    background-color: #333;
+    flex-wrap: wrap;
+}
+div.cards ul{
+    display: flex;
+    list-style: none;  
+    
+}
+div.card-content{
+    font-style: bold;
+    font-size: 16px;
+    line-height: 1.8em;
+    font-family: Arial;
+    text-align: center;
+}
+div.card-content h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial;
+}
+.cards1 , .cards2 , .cards3{
+    background:#EAEAEA ;
+    padding:20px;
+    margin-left: 10px;
+    text-align: center;
+    min-height: 420px;
+    max-width: 74%;
+    transition:all 0.5s;
+    flex-wrap: wrap;
+}
+.cards1:hover, .cards2:hover , .cards3:hover{
+    cursor: pointer;
+    max-width:77% ;
+    box-shadow: inset 0 0 1em rgb(48, 46, 46), 0 0 1em rgb(255, 255, 255);
+    transition:all 0.5s
+}
+div.cards img{
+    width: 80%;
+    border: 5px solid #333;
+}
+div.content2{
+    font-family: Arial;
+    width:100%;
+    min-height: 250px;
+    text-align: center;
+    background: #EAEAEA;
+    color: #333333;
+}
+div.content2 h2{
+    padding:27px;
+    font-weight: bold;
+}
+div.content2 p{
+    padding: 30px;
+    line-height: 2em;
+    font-size: 18px;
+}
+@media(max-width:835px){
+    div.cards ul{
+        flex-wrap: wrap;
+    }
+    li{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .btn{
+        right: 20%;
+        bottom: 10%;
+    }
+    div.video iframe{
+        width: 80%;
+    }
+}
+div.content3{
+    position: relative;
+    font-family: Arial;
+    background: url(imagens/pexels-olia-danilevich-4974912.jpg);
+    background-attachment: fixed;
+    background-size:100%;
+    max-width:100%;
+    min-height: 380px;
+}
+.content3 h1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top:90px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    transition:all 0.5s
+}
+.content3 h1:hover{
+    cursor:pointer;
+    text-shadow: 11px 3px 11px rgba(150, 150, 150, 1);
+    transition: all 0.5s;
+}
+div.video{
+    max-width: 100%;
+    min-height: 480px;
+    background-color: #333;
+    text-align: center;
+}
+div.video iframe{
+    padding: 20px;
+    border: 20px solid #EAEAEA ;
+}
