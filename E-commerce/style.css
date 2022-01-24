@@ -861,7 +861,7 @@ form .input-field{
      /* CONFIGURAÇÕES DA POP-UP RESPONSIVA*/
     .modal-content{
         width: 90%;
-        height:80vh;
+        height:70vh;
     }
 }
 @media (max-width:500 ){
