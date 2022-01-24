@@ -754,8 +754,8 @@ form .input-field{
     #mobile i{
         color: #1a1a1a;
         font-size: 24px;
-        padding-left: 20px;
-        margin: 10px;
+        padding-left: 10px;
+        margin: 4px;
         transform:scale(1.0);
     }
     #close{
