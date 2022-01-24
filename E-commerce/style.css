@@ -833,6 +833,10 @@ form .input-field{
         transition: 0.5s all ease;
         background-color: #E3E6F3;
     }
+    #banner{
+        height:70vh;
+        
+    }
     #sm-banner .banner-box{
         display: flex;
         flex-direction: column;
