@@ -860,10 +860,9 @@ form .input-field{
 
      /* CONFIGURAÇÕES DA POP-UP RESPONSIVA*/
     .modal-content{
-        width: 70%;
-
+        width: 60%;
+        height:70vh;
     }
-
 }
 @media (max-width:500 ){
     .section-p1{
