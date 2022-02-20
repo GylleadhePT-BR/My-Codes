@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin: 0;
+    border: border-box;
+}
+.head{
+    position:relative;
+    width: 100%;
+    min-height: 800px;
+    background-image: url(imagens/pexels-josh-hild-2422588.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1#titulo{
+    position: absolute;
+    left: 28%;
+    top:50%;
+
+    background-color: #253036ab;
+    padding: 25px;
+    font-family: sans-serif;
+   width: 40%;
+   letter-spacing: 5px;
+   font-weight: 100;
+    text-align: center;
+    color: #E0E0DE;
+
+}
+.conteudo{
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    padding:10px;
+    color: #1d282e;
+}
+.conteudo h2{
+    margin-top: 20px;
+}
+.conteudo section{
+    padding: 50px;
+    margin-top: 0;
+    line-height: 2.4em;
+}
+h1#titulo2{
+        position: absolute;
+        left: 28%;
+        top:50%;
+    
+        background-color: #41627271;
+        
+        padding: 25px;
+        font-family: sans-serif;
+       width: 40%;
+       letter-spacing: 5px;
+       font-weight: 100;
+        text-align: center;
+        color: #E0E0DE;
+        
+
+}
+.conteudo2{
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    padding:10px;
+    color: #1d282e;
+}
+.conteudo2 h2{
+    margin-top: 20px;
+}
+.conteudo2 section{
+    padding: 50px;
+    margin-top: 0;
+    line-height: 2.4em;
+}
+
+#tres{
+    width: 100%;
+    min-height: 499px;
+    background-image: url(imagens/pexels-jiarong-deng-1034662.jpg);
+    background-position: center center;
+    background-attachment:fixed ;
+    background-size: 100% ;
+    position:relative;
+}
