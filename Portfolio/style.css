@@ -29,7 +29,7 @@ button:hover{
     transition: 0.5s ease;
     cursor: pointer;
     transform: scale(1.2);
-    background-color: #BDAD7A;
+    background-color: #6F3D79;
     color: white;
 }
 /*===================================Top=================================*/
@@ -39,14 +39,14 @@ button:hover{
     font-weight: 500;
     display:flex;
     justify-content:space-between;
-    background: linear-gradient(45deg,#C33764,#1D2671);
+    background: url(imagens/R.jfif);
     height:10px;
     box-shadow:0px 18px 42px -1px rgba(1, 1, 1, 0.29)
     ;
 }
 .top a{
     text-decoration: none;
-    color:white;
+    color:rgb(255, 255, 255);
     flex-direction: row;
     margin-right: 20px;   
     margin-left: 20px;
@@ -58,9 +58,12 @@ button:hover{
     flex-direction: column;
     align-items:center;
     padding-top:40px;
+    background:url(imagens/R.jfif);
+    background-size:cover;
 }
 .hero h1{
     font-weight: 600;
+    color: white;
 }
 .hero #main{
     display: flex;
@@ -82,6 +85,7 @@ button:hover{
     justify-content:justify;
     text-align: center;
     font-weight: 500;
+    color: white;
 }
 .social-fields{
     display:flex;
@@ -108,7 +112,7 @@ button:hover{
 }
 /*==================================BANNER=================================*/
 #banner{
-    margin-top: 40px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -166,9 +170,9 @@ button:hover{
     padding: 35px;
     display: flex;
     flex-direction: column;
-    max-width: 20vw;
+    max-width: 18vw;
     min-height: 32vh;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     transition: 0.5s ease;
     background-color: rgb(255, 255, 255);
@@ -179,5 +183,5 @@ button:hover{
     cursor: pointer;
     transform: scale(0.8);
      box-shadow:21px 6px 15px 16px rgba(0, 0, 0, 0);
-     border: solid 5px white;
+     transform: scale(0.9);
 }
