@@ -186,24 +186,3 @@ button:hover{
      transform: scale(0.9);
 }
 /*==================================MY SERVICES MODAL=================================*/
-.modal{
-    max-width: 50vw;
-    min-height: 40vh;
-    background-color:#5A2C6C;
-    border-radius: 10px; 
-}
-.modal-UX{
-    display: none;
-}
-.active{
-    display:block
-    
-}
-.modal img{
-    width: 100%;
-}
-#close-btn{
-    float:right;
-    color: white;
-    padding: 20px;
-}
