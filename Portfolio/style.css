@@ -190,9 +190,20 @@ button:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@media(max-width:1172px){
+    #title01{
+        font-size: 3.1em;
+    }
+}
 @media(max-width:390px){
     #title01{
         font-size: 2.1em;
+    }
+}
+@media(max-width:494px){
+    #title01{
+        
+    font-size: 2.5em ;
     }
 }
 @media(max-width:412px){
@@ -256,6 +267,13 @@ button:hover{
     .card-services .card{
         padding: 10px;
         max-width: 70vw;
+        min-height: 30vh;
+        padding: 30px;
+    }
+}
+@media(max-width:494px){
+    .card-services .card{
+        max-width: 50vw;
         min-height: 30vh;
         padding: 30px;
     }
