@@ -272,6 +272,14 @@ button:hover{
         padding: 30px;
     }
 }
+@media(max-width:506px) and (max-width:582px){
+    .card-services .card{
+        padding: 10px;
+        max-width: 150px;
+        min-height: 30vh;
+        padding: 30px;
+    }
+}
 @media(max-width:360px){
     .card-services .card{
         padding: 10px;
