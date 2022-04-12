@@ -260,7 +260,7 @@ button:hover{
         padding: 30px;
     }
 }
-@media(max-width:390px){
+@media(max-width:412px){
     .card-services .card{
         max-width: 62vw;
         min-height: 30vh;
