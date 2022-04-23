@@ -183,39 +183,18 @@ button:hover{
 }
 
 #title01{
-    font-size: 4.5em;
+    font-size: 2.5em;
     font-weight: 800;
     margin-bottom: 2rem;
     background: linear-gradient(to top , transparent 0% , #5A2C6C 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-@media(max-width:1172px){
-    #title01{
-        font-size: 3.1em;
-    }
-}
-@media(max-width:390px){
-    #title01{
-        font-size: 2.1em;
-    }
-}
-@media(max-width:494px){
-    #title01{
-        
-    font-size: 2.5em ;
-    }
-}
-@media(max-width:412px){
-    #title01{
-        font-size: 2.1em;
-    }
-}
 
 .card-services{
     display: flex;
     flex-direction: row;
-    padding: 40px;
+    padding: 30px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0px;
@@ -228,13 +207,14 @@ button:hover{
     padding: 35px;
     display: flex;
     flex-direction: column;
-    max-width: 16vw;
+    max-width: 14vw;
     min-height: 32vh;
     justify-content: space-around;
     text-align: center;
     transition: 0.5s ease;
     background-color: rgb(255, 255, 255);
     transform: scale(0.7);
+    margin: 0px;
 }
 .card h2{
     font-size: 30px;
@@ -245,61 +225,5 @@ button:hover{
      box-shadow:21px 6px 15px 16px rgba(0, 0, 0, 0);
 }
 /*==================================MY SERVICES RESPONSIVE=================================*/
-@media(max-width:1282px){
-    .card-services .card{
-        max-width: 32vw;
-        min-height: 30vh;
-        padding: 30px;
-    }
-    #first-svg{
-        transform: scale(1.1);
-    }
-}
 
-@media(max-width:746px){
-    .card-services .card{
-        padding: 10px;
-        max-width: 30vw;
-        min-height: 30vh;
-        padding: 30px;
-    }
-}
-@media(max-width:614px){
-    .card-services .card{
-        padding: 10px;
-        max-width: 160px;
-        min-height: 30vh;
-        padding: 30px;
-    }
-}
-@media(max-width:506px) and (max-width:582px){
-    .card-services .card{
-        padding: 10px;
-        max-width: 150px;
-        min-height: 30vh;
-        padding: 30px;
-    }
-}
-@media(max-width:360px){
-    .card-services .card{
-        padding: 10px;
-        max-width: 70vw;
-        min-height: 30vh;
-        padding: 30px;
-    }
-}
-@media(max-width:494px){
-    .card-services .card{
-        max-width: 50vw;
-        min-height: 30vh;
-        padding: 30px;
-    }
-}
-@media(max-width:412px){
-    .card-services .card{
-        max-width: 62vw;
-        min-height: 30vh;
-        padding: 30px;
-    }
-}
 /*==================================MY SERVICES MODAL=================================*/
