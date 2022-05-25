@@ -15,14 +15,14 @@ button{
     background: white;
     font-weight: 600;
     max-width: 15vw;
-    min-height: 6vh;
+    min-height: 5vh;
     border: none;
     border-radius: 5px;
     font-size: 17px;
     transition: 0.5s ease;
     color: #321386;
     text-align: center;
-    padding: 20px;
+    padding: 17px;
     margin: 20px;
     ;
 }
@@ -30,7 +30,7 @@ button:hover{
     transition: 0.5s ease;
     cursor: pointer;
     transform: scale(1.2);
-    background-color: #6F3D79;
+    background-color: #43186A;
     color: white;
 }
 @media(max-width:1172px){
@@ -167,9 +167,6 @@ button:hover{
     color: rgb(141, 0, 0);
 }
 /*==================================MY SERVICES=================================*/
-.myservices{
-    padding: 20px;
-}
 .myservices a{
     text-decoration: none;
     cursor: pointer;
@@ -184,45 +181,46 @@ button:hover{
 #title01{
     font-size: 2.5em;
     font-weight: 800;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     background: linear-gradient(to top , transparent 0% , #5A2C6C 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .card-services{
     display: flex;
     flex-direction: row;
-    padding: 30px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0px;
-    
 }
 .card-services .card{
-    border: solid 8px #5A2C6C;
-    color: #1a206c;
-    border-radius: 20px;
-    padding: 35px;
     display: flex;
+    max-width: 28vw;
     flex-direction: column;
-    max-width: 14vw;
-    min-height: 32vh;
-    justify-content: space-around;
+    padding: 15px;
+    margin: 15px;
     text-align: center;
-    transition: 0.5s ease;
-    background-color: rgb(255, 255, 255);
-    transform: scale(0.7);
-    margin: 0px;
+    align-items: center;
+    justify-content: space-between;
+    background:url(imagens/R.jfif);
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    transform:scale(0.8);
+    border-radius:20px;
 }
-.card h2{
-    font-size: 30px;
+.card h3{
+    font-weight: 400;
 }
-.card-services .card:hover{
-    transition: 0.5s ease;
-    transform: scale(0.8);
-     box-shadow:21px 6px 15px 16px rgba(0, 0, 0, 0);
+.card-services img{
+    width: 210px;
+    align-items: center;
+    justify-content: center;
 }
+.card-services {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+
 /*==================================MY SERVICES RESPONSIVE=================================*/
 
 /*==================================MY SERVICES MODAL=================================*/
