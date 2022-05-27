@@ -159,6 +159,7 @@ button:hover {
 /*==================================BANNER=================================*/
 #banner {
   margin-top: 0px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -199,6 +200,9 @@ button:hover {
 @media(max-width:1079px){
     #title01{
         font-size: 28px;
+        width: 70%;
+        text-align: center;
+        margin:auto;
     }
 }
 
@@ -263,6 +267,12 @@ button:hover {
         border-radius: 20px;
       }
 
+}
+@media(max-width:417px){
+  .card-services .card{
+    max-width: 800vw;
+    justify-content: center;
+  }
 }
 
 
@@ -443,4 +453,18 @@ button:hover {
         justify-content: center;
         margin: 0 auto;
     }
+}
+@media(max-width:467px){
+  #title01{
+    font-size: 28px;
+    width: 90%;
+    text-align: center;
+    margin:auto;
+}
+  .skills-info{
+    grid-template-columns: repeat(auto-fill,minmax(280px,3fr));
+    gap: 40px;
+    justify-content: center;
+    margin: 0 auto;
+  }
 }
