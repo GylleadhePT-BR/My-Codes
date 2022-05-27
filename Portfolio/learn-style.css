@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url(imagens/R.jfif);
+    background-size:cover;
+    background-position:center right;
+    background-repeat: no-repeat;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    font-weight: 600;
+    max-width: 15vw;
+    min-height: 5vh;
+    border: 3px solid #5a2c6c;
+    border-radius: 5px;
+    font-size: 17px;
+    transition: 0.5s ease;
+    color: #321386;
+    text-align: center;
+    padding: 17px;
+    margin: 20px;
+}
+
+button:hover {
+    transition: 0.5s ease;
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #43186a;
+    color: white;
+}
+
+#title01{
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 10PX;
+    background: linear-gradient(to top, transparent 0%, #ffffff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 40px;
+    color: white;
+ 
+
+}
+.active {
+    display: block;
+}
+
+.off {
+    display: none;
+}
+
+@media (max-width: 1172px) {
+    button {
+        max-width: 25vw;
+    }
+}
+
+@media (max-width: 390px) {
+    button {
+        max-width: 45vw;
+    }
+}
+
+/*========================================Main==============================*/
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+iframe {
+    margin: 0px;
+    border: 8px solid #ffffff;
+    border-radius: 20px;
+}
+
+.video {
+    display: flex;
+}
+
+.ux-text {
+    max-width: 600px;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    margin: 0px;
+    border-radius: 20px;
+    margin-right: 80px;
+    margin-left: 10px;
+    border-bottom: 8px solid #43186a;
+}
+
+.ux-text p {
+    line-height: 1.8em;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    color: #43186a;
+}
+
+/*=============================Responsive==================================*/
+@media(max-width: 1205px){
+    
+    .ux-text{
+        max-width: 700px;
+        margin-right: 30px;
+    }
+    iframe{
+        margin: 20px;
+
+    }
+}
+
+@media(max-width:999px){
+    #title01{
+        font-size: 35px;
+    }
+    .main {
+        flex-direction: column;
+        padding: 50px;
+        max-height: max-content;
+        width: 100vw;
+    }
+    .ux-text{
+        max-width: 700px;
+        margin: auto;
+        min-height: 400px;
+    }
+    iframe{
+        width: 700px;
+    }
+}
+
+@media(max-width:737px){
+    iframe{
+        max-width: 560px;
+    }
+}
+@media(max-width:597px){
+    iframe{
+        max-width: 500px;
+    }
+    .ux-text{
+        max-width: 600px;
+        min-height: 500px;
+        margin: 5px;
+    }
+    #title01{
+        font-size: 25px;
+    }
+}
+@media(max-width:500px){
+    iframe{
+        max-width: 300px;
+    }
+    .ux-text{
+        max-width: 600px;
+        min-height: 600px;
+        margin: 5px;
+        transform: scale(0.9);
+    }
+
+}
+@media(max-width:420px){
+    iframe{
+        max-width: 350px;
+    }
+    .ux-text{
+        width: 430px;
+        min-height: 500px;
+        margin: 0px 30px 0px 30px;
+        transform: scale(0.8);
+    }
+
+}
+@media(max-width:360px){
+    .main{
+        transform: scale(0.8);
+    }
+}
