@@ -86,7 +86,7 @@ button:hover {
 }
 
 iframe {
-    margin: 0px;
+    margin: 50px;
     border: 8px solid #ffffff;
     border-radius: 20px;
 }
@@ -203,7 +203,7 @@ li {
     }
 
 }
-@media(max-width:420px){
+@media(max-width:425px){
     iframe{
         max-width: 350px;
     }
@@ -240,5 +240,22 @@ li {
     }
     #title01{
         margin-bottom: 100px;
+    }
+}
+
+@media(max-width:378px){
+    #title01{
+        align-items: center;
+        justify-content: center;
+        width: 3;
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+    iframe{
+        max-width: 280px;
+    }
+    .ux-text{
+        width: 360px;
+        min-height: 520px;
     }
 }
