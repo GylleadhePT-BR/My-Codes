@@ -113,10 +113,23 @@ button:hover {
   text-align: center;
   overflow: hidden;
 }
-.container p span.typed-text {
-  font-weight: normal;
-  color: #d5bbf9;
+@media(max-width:1024px){
+    .container p{
+      font-size: 1.6rem;
+    }
 }
+@media(max-width:500px){
+  .container p{
+    font-size: 1rem;
+  }
+}
+@media(max-width:400px){
+  .container p{
+    width: 150px;
+    font-size: 0.8rem;
+  }
+}
+
 .container p span.cursor {
   display: inline-block;
   background-color: #ccc;
@@ -188,6 +201,18 @@ button:hover {
 #about{
     font-weight: 600;
   font-size: 20px;
+}
+@media(max-width:1024px){
+  #about{
+    font-size: 20px;
+    width: 90vw;
+  }
+}
+@media(max-width:500px){
+  #about{
+    width: 90vw;
+    font-size: 13px;
+  }
 }
 #about {
   overflow: hidden;
