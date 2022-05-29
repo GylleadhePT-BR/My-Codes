@@ -631,7 +631,6 @@ button:hover {
 .carousel {
   transition: .3s ease;
   border-radius: 20px;
-  width: 100vw;
 
 }
 
@@ -803,6 +802,16 @@ button:hover {
   }
 }
 /*============================================PROJECTS RESPONSIVE==============================*/
+@media(max-width:1024px){
+    button{
+      width: 150px;
+      height: 40px;
+      font-size: 20px;
+    }
+    .bloco4{
+      min-width: 500px;
+    }
+}
 @media(max-width:1016px){
   button{
     width: 180px;
@@ -837,6 +846,7 @@ button:hover {
     transition: .3s ease;
     border-radius: 0px;
     width: 100vw;
+    height: 50vw;
   }
   .carousel img{
     border-radius: 0px;
@@ -887,7 +897,7 @@ button:hover {
   
   .bloco1:hover {
     transition: .3s ease;
-    transform: scale(0.9);
+    transform: scale(1);
     cursor: pointer;
   }
   
@@ -936,7 +946,7 @@ button:hover {
   
   .bloco2:hover {
     transition: .3s ease;
-    transform: scale(0.9);
+    transform: scale(1);
     cursor: pointer;
   }
   
@@ -953,7 +963,7 @@ button:hover {
   
   .bloco3:hover {
     transition: .3s ease;
-    transform: scale(0.9);
+    transform: scale(1);
     cursor: pointer;
   }
   
@@ -972,7 +982,7 @@ button:hover {
     transition: .3s ease;
   
     cursor: pointer;
-    transform: scale(0.9);
+    transform: scale(1);
   }
   
   #botao-4 {
@@ -997,6 +1007,15 @@ button:hover {
     height: 9px;
   }
 }
+
+@media(max-width:560px){
+  
+  button{
+    width: 200px;
+    font-size: 25px;
+    height: 4vh;
+  }
+} 
 /*============================================TALK SECTION==============================*/
 .talk {
   display: flex;
