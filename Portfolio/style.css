@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -15,24 +16,24 @@ button {
   justify-content: center;
   background: white;
   font-weight: 600;
-  max-width: 15vw;
-  min-height: 5vh;
+  width: 13vw;
+  min-height: 3vh;
   border: 3px solid #5a2c6c;
-  border-radius: 10px;
+  border-radius: 40px;
   font-size: 17px;
   transition: 0.5s ease;
-  color: #321386;
+
   text-align: center;
   padding: 17px;
   margin: 20px;
 }
-a{
+
+.normal {
   text-decoration: none;
 }
 
 button:hover {
   transition: 0.5s ease;
-  text-decoration: none;
   cursor: pointer;
   transform: scale(1.2);
   background-color: #43186a;
@@ -105,6 +106,7 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+
 .container p {
   font-size: 2rem;
   padding: 0.5rem;
@@ -113,18 +115,21 @@ button:hover {
   text-align: center;
   overflow: hidden;
 }
-@media(max-width:1024px){
-    .container p{
-      font-size: 1.6rem;
-    }
+
+@media(max-width:1024px) {
+  .container p {
+    font-size: 1.6rem;
+  }
 }
-@media(max-width:500px){
-  .container p{
+
+@media(max-width:500px) {
+  .container p {
     font-size: 1rem;
   }
 }
-@media(max-width:400px){
-  .container p{
+
+@media(max-width:400px) {
+  .container p {
     width: 150px;
     font-size: 0.8rem;
   }
@@ -137,15 +142,31 @@ button:hover {
   width: 3px;
   animation: blink 1s infinite;
 }
+
 .container p span.cursor.typing {
   animation: none;
 }
+
 @keyframes blink {
-  0%  { background-color: #ccc; }
-  49% { background-color: #ccc; }
-  50% { background-color: transparent; }
-  99% { background-color: transparent; }
-  100%  { background-color: #ccc; }
+  0% {
+    background-color: #ccc;
+  }
+
+  49% {
+    background-color: #ccc;
+  }
+
+  50% {
+    background-color: transparent;
+  }
+
+  99% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: #ccc;
+  }
 }
 
 .hero {
@@ -156,6 +177,7 @@ button:hover {
   background: url(imagens/R.jfif);
   background-size: cover;
 }
+
 .hero h1 {
   font-weight: 600;
   color: white;
@@ -198,31 +220,36 @@ button:hover {
   text-align: center;
   color: white;
 }
-#about{
-    font-weight: 600;
+
+#about {
+  font-weight: 600;
   font-size: 20px;
 }
-@media(max-width:1024px){
-  #about{
+
+@media(max-width:1024px) {
+  #about {
     font-size: 20px;
     width: 90vw;
   }
 }
-@media(max-width:500px){
-  #about{
+
+@media(max-width:500px) {
+  #about {
     width: 90vw;
     font-size: 13px;
   }
 }
+
 #about {
   overflow: hidden;
   margin: 0 auto;
   display: inline-block;
-      font-weight: normal;
+  font-weight: normal;
 
 }
-#about:after{
- content: '';
+
+#about:after {
+  content: '';
   display: inline-block;
   background-color: white;
   margin-left: 2px;
@@ -235,10 +262,21 @@ button:hover {
 
 /* The typewriter cursor effect */
 @keyframes cursor {
-  0% { opacity: 1; }
-    49% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 0; }
+  0% {
+    opacity: 1;
+  }
+
+  49% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 .social-fields {
@@ -333,7 +371,7 @@ button:hover {
 
 .card-services .card {
   display: flex;
-  max-width:35vw;
+  max-width: 35vw;
   flex-direction: column;
   padding: 30px;
   text-align: center;
@@ -371,11 +409,11 @@ button:hover {
     flex-direction: column;
     justify-content: space-around;
     margin: 0px;
-    
+
   }
 
   .card-services .card {
-   
+
     display: flex;
     max-width: 500vw;
     flex-direction: row;
@@ -403,7 +441,7 @@ button:hover {
 /*==================================EDUCATION AND SKILLS================================*/
 
 .educskills {
-  margin:auto;
+  margin: auto;
 
 }
 
@@ -591,15 +629,21 @@ button:hover {
 }
 
 .carousel {
+  transition: .3s ease;
   border-radius: 20px;
   width: 100vw;
-  transform: scale(1);
-  
+
+}
+
+.carousel:hover {
+  transition: .3s ease;
+  cursor: pointer;
+  transform: scale(0.9);
 }
 
 .carousel img {
   box-shadow: 10px 3px 20px 11px rgba(255, 255, 255, 0.345);
-  width:100vw;
+  width: 100vw;
   border-radius: 20px;
 }
 
@@ -620,37 +664,344 @@ button:hover {
   align-items: center;
 }
 
-.pj-layout{
+.pj-layout {
   display: grid;
-  grid-template-columns:repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   grid-auto-rows: 300px;
   border-radius: 20px;
-  margin-top:50px;
+  margin-top: 50px;
   box-sizing: border-box;
 }
-.pj-layout img{
+
+.bloco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bloco1 {
+
+  background: url(imagens/project\ -\ paralax.png);
+  background-size: cover;
+  background-position: center center;
+  transition: .3s ease;
+  border-radius: 20px;
+  -webkit-box-shadow: inset 8px -50px 17px -30px rgba(0, 0, 0, 0.854);
+  box-shadow: inset 8px -300px 17px -30px rgba(0, 0, 0, 0.816);
+}
+
+.bloco1:hover {
+  transition: .3s ease;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.bloco label {
+  color: #ffffff;
+  background: #5a2c6c;
+  font-weight: 500;
+  padding: 5px 20px;
+  margin: 100px;
+  border-radius: 5px;
+}
+
+.bloco3 label {
+  width: 20vw;
+  padding: 10px;
+  text-align: center;
+}
+
+#botao-3 {
+  margin-bottom: 70px;
+}
+
+.bloco p {
+  font-size: 20px;
+  font-weight: 600;
+  width: 70%;
+  color: white;
+  text-align: center;
+}
+
+.bloco2 {
+  background: url(imagens/Simple-cauculator.png);
+  background-size: cover;
+  background-position: center center;
+  transition: .3s ease;
+  border-radius: 20px;
+  -webkit-box-shadow: inset 8px -50px 17px -30px rgba(0, 0, 0, 0.74);
+  box-shadow: inset 8px -150px 17px -30px rgba(0, 0, 0, 0.74);
+}
+.bloco2 p{
+    margin-bottom: 90px;
+}
+
+.bloco2:hover {
+  transition: .3s ease;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.bloco3 {
+  background: url(imagens/site\ android.png);
+  background-size: cover;
+  background-position: center center;
+  transition: .3s ease;
+  border-radius: 20px;
+  -webkit-box-shadow: inset 8px -50px 17px -30px rgba(0, 0, 0, 0.74);
+  box-shadow: inset 8px -120px 17px -30px rgba(0, 0, 0, 0.74);
+}
+
+.bloco3:hover {
+  transition: .3s ease;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.bloco4 {
+  width: 20vw;
+  background: url(imagens/grid\ site.png);
+  background-size: cover;
+  background-position: center center;
+  -webkit-box-shadow: inset 8px -50px 17px -30px rgba(0, 0, 0, 0.74);
+  box-shadow: inset 8px -120px 17px -30px rgba(0, 0, 0, 0.74);
+  transition: .3s ease;
+  border-radius: 20px;
+}
+
+.bloco4:hover {
+  transition: .3s ease;
+
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+#botao-4 {
+  margin-bottom: 70px;
+}
+
+.pj-layout img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  border-radius: 20px;
 }
-.image-grid-col-2{
+
+.image-grid-col-2 {
   grid-column: span 2;
 }
-.image-grid-row-2{
+
+.image-grid-row-2 {
   grid-row: span 2;
 }
-@media(max-width:1024px){
-  .pj-layout{
-    grid-template-columns:repeat(2,1fr);
+
+@media(max-width:1024px) {
+  .pj-layout {
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 300px;
   }
 }
+/*============================================PROJECTS RESPONSIVE==============================*/
+@media(max-width:1016px){
+  button{
+    width: 180px;
+    height: 10px;
+  }
+  .bloco label {
+    color: #ffffff;
+    background: #5a2c6c;
+    font-weight: 500;
+    padding: 5px 10px;
+    margin: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .bloco p {
+    margin-top: 30px;
+    font-weight: 600;
+    width: 70%;
+    color: white;
+    text-align: center;
+  }
+    .bloco4{
+    min-width: 500px;
+  }
+}
+@media(max-width:700px) {
+  .projects {
+    padding: 0px;
+  }
+  
+  .carousel {
+    transition: .3s ease;
+    border-radius: 0px;
+    width: 100vw;
+  }
+  .carousel img{
+    border-radius: 0px;
+  }
+  .carousel:hover {
+    transition: .3s ease;
+    cursor: pointer;
+  }
+  .carousel h4 label {
+    color: #ffffff;
+    background: #5a2c6c;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .pj-layout {
+    display: grid;
+    padding: 30px;
+    gap: 16px;
+    grid-template-columns: 100px;
+    grid-auto-rows: 200px;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-sizing: border-box;
+  }
+  
+  .bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .bloco1 {
+  
+    background: url(imagens/project\ -\ paralax.png);
+    background-size: cover;
+    background-position: center center;
+    transition: .3s ease;
+    border-radius: 20px;
+    margin: 20px;
+    -webkit-box-shadow: inset 8px -50px 17px -30px rgba(0, 0, 0, 0.854);
+    box-shadow: inset 8px -300px 17px -30px rgba(0, 0, 0, 0.816);
+  }
+  
+  .bloco1:hover {
+    transition: .3s ease;
+    transform: scale(0.9);
+    cursor: pointer;
+  }
+  
+  .bloco label {
+    color: #ffffff;
+    background: #5a2c6c;
+    font-weight: 500;
+    padding: 5px 17px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .bloco3 label {
+    width: 50vw;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+  }
+  
+  #botao-3 {
+    margin-bottom: 40px;
+  }
+  
+  .bloco p {
+    font-size: 17px;
+    font-weight: 600;
+    width: 70%;
+    color: white;
+    text-align: center;
+  }
+  
+  .bloco2 {
+    background: url(imagens/Simple-cauculator.png);
+    background-size: cover;
+    background-position: center center;
+    transition: .3s ease;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 8px -50px 17px -30px rgba(0, 0, 0, 0.74);
+    box-shadow: inset 8px -150px 17px -30px rgba(0, 0, 0, 0.74);
+  }
+  .bloco2 p{
+      margin-bottom: 20px;
+      font-size: 15px;
+  }
+  
+  .bloco2:hover {
+    transition: .3s ease;
+    transform: scale(0.9);
+    cursor: pointer;
+  }
+  
+  .bloco3 {
+    background: url(imagens/site\ android.png);
+    background-size: cover;
+    background-position: center center;
+    transition: .3s ease;
+    min-width: 90vw;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 8px -50px 17px -30px rgba(0, 0, 0, 0.74);
+    box-shadow: inset 8px -120px 17px -30px rgba(0, 0, 0, 0.74);
+  }
+  
+  .bloco3:hover {
+    transition: .3s ease;
+    transform: scale(0.9);
+    cursor: pointer;
+  }
+  
+  .bloco4 {
+    min-width: 90vw;
+    background: url(imagens/grid\ site.png);
+    background-size: cover;
+    background-position: center center;
+    -webkit-box-shadow: inset 8px -50px 17px -30px rgba(0, 0, 0, 0.74);
+    box-shadow: inset 8px -120px 17px -30px rgba(0, 0, 0, 0.74);
+    transition: .3s ease;
+    border-radius: 20px;
+  }
+  
+  .bloco4:hover {
+    transition: .3s ease;
+  
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  
+  #botao-4 {
+    margin-bottom: 10px;
+  }
+  
+  .pj-layout img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  .image-grid-col-2 {
+    grid-column: span 2;
+  }
+  
+  .image-grid-row-2 {
+    grid-row: span 2;
+  }
+  button{
+    width: 190px;
+    height: 9px;
+  }
+}
 /*============================================TALK SECTION==============================*/
-.talk{
+.talk {
   display: flex;
   background: url(imagens/talk.png);
-  background-color:#43186a ;
+  background-color: #43186a;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;

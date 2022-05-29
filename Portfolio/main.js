@@ -68,3 +68,16 @@ function deltxt() {
     setTimeout(deltxt, 10);
   }
 }
+
+ var bloc4 = document.getElementById('bloco4')
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    bloc4.classList.add('image-grid-col-2')
+  } else {
+    bloc4.classList.remove('image-grid-col-2')
+  }
+}
+
+var x = window.matchMedia("(max-width: 700px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
