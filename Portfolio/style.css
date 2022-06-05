@@ -1018,7 +1018,7 @@ button:hover {
   
   button{
     width: 200px;
-    font-size: 25px;
+    font-size: 17px;
     height: 4vh;
   }
 } 
@@ -1026,11 +1026,78 @@ button:hover {
 .talk {
   display: flex;
   background: url(imagens/talk.png);
-  background-color: #43186a;
+  flex-direction: row;
   flex-wrap: wrap;
+  background-color: #43186a;
   align-items: center;
-  justify-content: space-around;
-  gap: 40px;
-  padding: 70px;
+  justify-content: space-between;
+  padding: 50px;
   border-radius: 0px 0px 50px 50px;
+}
+.talk-left{
+  margin: right 0px;
+}
+.talk-left h2{
+  color: white;
+  font-size: 2.1em;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+ul{
+  list-style: none;
+}
+.contact-list h1{
+  margin-bottom: 40px;
+}
+
+.contact-list h3{
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 20px;
+  color: white;
+}
+
+.contact-list i{
+  color:#ffffff;
+  margin-right: 10px;
+}
+.contact-list li span{
+  color: white;
+  margin: 0px;
+}
+
+.contact-list li span a{
+  color: white;
+}
+.talk-right{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  transform:scale(0.8);
+  margin:0px
+}
+.talk-right p{
+  color: white;
+  font-size: 1.4em;
+  margin-bottom: 30px;
+}
+
+.talk-right p span{
+  color:white;
+  font-weight: 700;
+
+}
+
+.contact-form input , .contact-form textarea{
+  border: none;
+  color: white;
+  background: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 15px 40px 40px 20px ;
+  border-radius: 5px;
+}
+.contact-form textarea{
+  max-width: 100%;
+  resize: none;
 }
