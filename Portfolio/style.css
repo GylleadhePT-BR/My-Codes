@@ -9,7 +9,7 @@ body{
   background: #0f042c;
 }
 main {
-  background: linear-gradient(45deg, #c337633c, #1d257149);
+  background: linear-gradient(45deg, #c3376365, #1d257174);
   background-size: 500vw ;
   transform: scale(0.98);
   border-radius: 50px 50px 50px 50px;
@@ -639,13 +639,6 @@ button:hover {
   border-radius: 20px;
 
 }
-
-.carousel:hover {
-  transition: .3s ease;
-  cursor: pointer;
-  transform: scale(0.9);
-}
-
 .carousel img {
   box-shadow: 10px 3px 20px 11px rgba(255, 255, 255, 0.345);
   width: 100vw;
@@ -660,6 +653,7 @@ button:hover {
   border-radius: 5px;
   font-size: 25px;
   transform: scale(0.9);
+  cursor: pointer;
 }
 
 .slider-layout {
@@ -687,7 +681,7 @@ button:hover {
 }
 
 .bloco1 {
-
+  
   background: url(imagens/project\ -\ paralax.png);
   background-size: cover;
   background-position: center center;
@@ -697,11 +691,6 @@ button:hover {
   box-shadow: inset 8px -300px 17px -30px rgba(0, 0, 0, 0.816);
 }
 
-.bloco1:hover {
-  transition: .3s ease;
-  transform: scale(0.9);
-  cursor: pointer;
-}
 
 .bloco label {
   color: #ffffff;
@@ -710,6 +699,12 @@ button:hover {
   padding: 5px 20px;
   margin: 100px;
   border-radius: 5px;
+  cursor: pointer;
+  transition: .3s ease;
+}
+.bloco label:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .bloco3 label {
@@ -743,12 +738,6 @@ button:hover {
     margin-bottom: 90px;
 }
 
-.bloco2:hover {
-  transition: .3s ease;
-  transform: scale(0.9);
-  cursor: pointer;
-}
-
 .bloco3 {
   background: url(imagens/site\ android.png);
   background-size: cover;
@@ -758,13 +747,6 @@ button:hover {
   -webkit-box-shadow: inset 8px -50px 17px -30px rgba(0, 0, 0, 0.74);
   box-shadow: inset 8px -120px 17px -30px rgba(0, 0, 0, 0.74);
 }
-
-.bloco3:hover {
-  transition: .3s ease;
-  transform: scale(0.9);
-  cursor: pointer;
-}
-
 .bloco4 {
   width: 20vw;
   background: url(imagens/grid\ site.png);
@@ -775,14 +757,6 @@ button:hover {
   transition: .3s ease;
   border-radius: 20px;
 }
-
-.bloco4:hover {
-  transition: .3s ease;
-
-  cursor: pointer;
-  transform: scale(0.9);
-}
-
 #botao-4 {
   margin-bottom: 70px;
 }
