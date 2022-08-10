@@ -12,7 +12,6 @@ main {
   background: linear-gradient(45deg, #c3376365, #1d257174);
   background-size: 500vw ;
   transform: scale(0.98);
-  border-radius: 50px 50px 50px 50px;
 }
 
 button {
@@ -77,6 +76,7 @@ button:hover {
   }
 }
 
+
 /*===================================Top=================================*/
 
 .top {
@@ -87,7 +87,7 @@ button:hover {
   background: url(imagens/R.jfif);
   height: 10px;
   box-shadow: 0px 18px 42px -1px rgba(1, 1, 1, 0.29);
-  border-radius: 50px 50px 0px 0px;
+  
 }
 
 .top a {
@@ -910,7 +910,7 @@ button:hover {
     box-shadow: inset 8px -150px 17px -30px rgba(0, 0, 0, 0.74);
   }
   .bloco2 p{
-      margin-bottom: 20px;
+      margin-bottom: 40px;
       font-size: 15px;
   }
   
@@ -971,7 +971,81 @@ button:hover {
     font-size: 17px;
     height: 4vh;
   }
-} 
+}
+/*============================================FRAMER-SECTION==============================*/
+.framer-area{
+  padding:70px;
+  transform: scale(0.9);
+}
+.framers{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+iframe{
+  width: 500px;
+  height: 800px;
+  border-radius: 30px;
+  margin: 40px;
+  border:#5a2c6c solid 6px;
+}
+.framer-text span{
+  display: flex;
+  letter-spacing: 2px;
+  padding: 18px;
+  font-weight: 600;
+  font-size: 20px;
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background: rgba(255, 255, 255, 0.486);
+  border-bottom: #43186a 7px solid;
+  line-height: 50px;
+  border-radius: 20px;
+  color: #270d2f;
+}
+/*============================================FRAMER-SECTION RESPONSIVE==============================*/
+@media(max-width:1303px){
+  iframe{
+    width:35vw;
+  }
+  .framer-text span{
+    font-size: 14px;
+    scale: 0.8;
+  }
+}
+@media(max-width:977px){
+  iframe{
+    width:30vw;
+    height: 600px;
+  }
+}
+@media(max-width:754px){
+  iframe{
+    width: 28vw;
+    height:600px ;
+  }
+  .framer-text{
+    display: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .framer-text span{
+   width: 400px;
+   margin:auto;
+  }
+}
+@media(max-width:672px){
+  iframe{
+    width:max-content;
+  }
+}
 /*============================================TALK SECTION==============================*/
 .talk {
   display: flex;
@@ -982,7 +1056,7 @@ button:hover {
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  border-radius: 0px 0px 50px 50px;
+  
 }
 .talk-left{
   margin: right 0px;
