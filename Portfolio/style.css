@@ -405,7 +405,7 @@ button:hover {
 .card-services h3 {
   font-size: 20px;
   font-weight: 600;
-  line-height: 2.3em;
+  line-height: 27px;
 }
 
 /*==================================MY SERVICES RESPONSIVE=================================*/
@@ -438,7 +438,7 @@ button:hover {
 
 @media(max-width:417px) {
   .card-services .card {
-    max-width: 800vw;
+    max-width:900vw;
     justify-content: center;
   }
 }
@@ -984,6 +984,7 @@ button:hover {
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
+  margin: auto;
 }
 iframe{
   width: 500px;
@@ -991,6 +992,10 @@ iframe{
   border-radius: 30px;
   margin: 40px;
   border:#5a2c6c solid 6px;
+}
+.framer-text{
+  display: flex;
+  flex-direction: column;
 }
 .framer-text span{
   display: flex;
@@ -1000,6 +1005,7 @@ iframe{
   font-size: 20px;
   width: 80vw;
   margin: auto;
+  margin-top: 40px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -1016,7 +1022,7 @@ iframe{
     width:35vw;
   }
   .framer-text span{
-    font-size: 14px;
+    font-size: 24px;
     scale: 0.8;
   }
 }
@@ -1037,13 +1043,37 @@ iframe{
     align-items: center;
   }
   .framer-text span{
-   width: 400px;
+   
+    font-size: 15px;
+   width: 500px;
    margin:auto;
   }
 }
 @media(max-width:672px){
   iframe{
     width:max-content;
+  }
+  .framer-text span{
+    margin: 0;
+    margin-top: 30px;
+    line-height: 25px;
+  }
+  
+}
+@media(max-width:556px){
+  .framer-text span{
+    width: 350px;
+    margin: 0;
+    line-height: 25px;
+  }
+}
+@media(max-width:320px){
+  .framer-text span{
+    margin:0;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    width: 300px;
   }
 }
 /*============================================TALK SECTION==============================*/
