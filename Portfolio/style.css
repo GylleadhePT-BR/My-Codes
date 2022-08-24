@@ -458,42 +458,6 @@ button:hover {
     justify-content: center;
   }
 }
-/*==================================WARNING===========================================*/
-.alarm{
-  padding: 20px;
-  width: 100%;
-  height:50%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(255, 255, 255);
-}
-
-.aviso-text{
-  font-weight: 600;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  display: flex;
-  background:#E98D3C;
-  max-width: 50vw;
-  min-height: 60px;
-  transition: all .3s ease-in;
-  border-radius: 20px;
-}
-.aviso-text span{
-  margin: 20px;
-}
-.aviso-text:hover{
-  background: red;
-  transition: all .3s ease-in;
-  transform: scale(1.1);
-  -webkit-box-shadow: -1px 15px 13px 0px #00000093; 
-  box-shadow: -1px 15px 13px 0px #00000093;
-}
 
 /*==================================EDUCATION AND SKILLS================================*/
 
@@ -1023,6 +987,54 @@ button:hover {
     height: 4vh;
   }
 }
+/*==================================WARNING===========================================*/
+.alarm{
+  padding: 20px;
+  width: 100%;
+  height:50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.aviso-text{
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  display: flex;
+  background:#E98D3C;
+  max-width: 80vw;
+  min-height: 60px;
+  transition: all .3s ease-in;
+  border-radius: 20px;
+  text-align: center;
+
+}
+.aviso-text span{
+  margin: 20px;
+  max-width: 800px;
+}
+.aviso-text:hover{
+  background: red;
+  transition: all .3s ease-in;
+  transform: scale(1.1);
+  -webkit-box-shadow: -1px 15px 13px 0px #00000093; 
+  box-shadow: -1px 15px 13px 0px #00000093;
+}
+
+@media(max-width:554px){
+  .aviso-text{
+    display:flex;
+    flex-direction: column;
+  }
+}
+
+
 /*============================================FRAMER-SECTION==============================*/
 .framer-area{
   padding:70px;
@@ -1042,6 +1054,7 @@ iframe{
   height: 800px;
   border-radius: 30px;
   margin: 40px;
+  margin-top:80px;
   border:#5a2c6c solid 6px;
 }
 .framer-text{
@@ -1070,14 +1083,15 @@ iframe{
 /*============================================FRAMER-SECTION RESPONSIVE==============================*/
 @media(max-width:1303px){
   .framer-area{
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
   iframe{
     width:35vw;
+    transform:scale(1.1)
   }
   .framer-text span{
     font-size: 24px;
-    scale: 0.8;
+    scale: 0.9;
   }
 }
 @media(max-width:977px){
@@ -1116,9 +1130,13 @@ iframe{
 }
 @media(max-width:556px){
   .framer-text span{
+    font-size: 20px;
     width: 350px;
     margin: 0;
     line-height: 25px;
+  }
+  iframe{
+    height: 700px;
   }
 }
 @media(max-width:320px){
