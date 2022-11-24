@@ -3,8 +3,8 @@
 <h2> In my first repository you will find some projects that I did in my career of just 3 years as a programmer, projects with , Html5 , css3 , Python and other languages</h2>
 <h2 align="center">💻Check Some Projects 🤓</h2>
 <div style="display:flex;">
-  <img src="https://user-images.githubusercontent.com/62726058/203668631-c4ec0d2b-dcee-40dc-bcc9-150e7f8c5a82.png" style="width:500px">
-  <img src="https://user-images.githubusercontent.com/62726058/203670831-b33d7028-cae9-40a6-afa8-ed33deb1c096.png" style="width:500px; height:330px">
+  <img src="https://user-images.githubusercontent.com/62726058/203668631-c4ec0d2b-dcee-40dc-bcc9-150e7f8c5a82.png" style="width:400px">
+  <img src="https://user-images.githubusercontent.com/62726058/203670831-b33d7028-cae9-40a6-afa8-ed33deb1c096.png" style="width:400px; height:330px">
 </div>
 
 <h3 align="center">🛠️ Languages and Tools:</h3>
