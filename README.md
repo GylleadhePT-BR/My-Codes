@@ -1,4 +1,3 @@
 # My-Codes
-I am a new Brazilian programmer, so please help me
-
-primeiro versionamento do meu git
+<h1>👨‍💻I am a Junior Programmer from Brazil , so please , ignore some mistakes 😊</h1>
+<h2> In my first repository you will find some projects that I did in my career of just 3 years as a programmer, projects with , Html5 , css3 , Python and other languages</h2>
