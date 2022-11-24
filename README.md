@@ -8,6 +8,6 @@
 </div>
 <div>
 <h3 style="text-align:center">My portfolio</h3>
-<img src="https://user-images.githubusercontent.com/62726058/203668631-c4ec0d2b-dcee-40dc-bcc9-150e7f8c5a82.png" style="width:500px">
+<img src="https://user-images.githubusercontent.com/62726058/203670831-b33d7028-cae9-40a6-afa8-ed33deb1c096.png" style="width:500px">
 </div>
 
