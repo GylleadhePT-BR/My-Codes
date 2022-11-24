@@ -8,7 +8,7 @@
 </div>
 <h2 align="center">📱With Figma And Framer📱</h2>
 <div style="display:flex;" , align="center">
-  <a href="https://framer.com/share/Hot-burguer-project--qBgVVdRDUPqYTrJtrVr8/nRpaPIQVM"><img src="https://user-images.githubusercontent.com/62726058/203674041-91550a38-0239-4e4e-87fd-a2a681ca0755.png" style="width:400px"></a>
+  <a href="https://framer.com/share/Hot-burguer-project--qBgVVdRDUPqYTrJtrVr8/nRpaPIQVM" target="_blank"><img src="https://user-images.githubusercontent.com/62726058/203674041-91550a38-0239-4e4e-87fd-a2a681ca0755.png" style="width:400px"></a>
   <img src="https://user-images.githubusercontent.com/62726058/203674435-fed03ccc-0e04-47e6-a597-688de7544b11.png" style="width:400px">
 </div>
 <h3 align="center">🛠️ Languages and Tools:</h3>
